@@ -3,9 +3,10 @@ import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
 
-// import "@stream-io/video-react-sdk/dist/css/styles.css";
-// import "react-datepicker/dist/react-datepicker.css";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
+import "react-datepicker/dist/react-datepicker.css";
 import "./globals.css";
+
 import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,7 +28,8 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            // logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/zoom-logo.svg",
           },
           variables: {
             colorText: "#fff",
