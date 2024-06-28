@@ -1,12 +1,12 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
-import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
 
-import "@stream-io/video-react-sdk/dist/css/styles.css";
 import "react-datepicker/dist/react-datepicker.css";
-import "./globals.css";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 
+import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
